@@ -1,0 +1,10 @@
+.DS_Store
+.idea/
+logs/
+reports/
+target/
+test-output/
+tmpFailures/
+External Libraries/
+*.iml
+
