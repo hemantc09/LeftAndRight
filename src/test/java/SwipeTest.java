@@ -54,10 +54,10 @@ public class SwipeTest {
     public void swipeRight() throws InterruptedException, IOException {
         driver.get("https://www.tinder.com");
         String tinderLoginTitle = driver.getWindowHandle();
-
         swipe.iAcceptBtnClick();
         swipe.loginTopCornerBtnClick();
         swipe.loginWithFacebookClick();
+        swipe.waitForFewSeconds(3000);
         browsers = driver.getWindowHandles();
         System.out.println("size is:" + browsers.size());
         for(String singleTab: browsers) {
