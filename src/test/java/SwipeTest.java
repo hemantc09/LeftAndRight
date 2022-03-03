@@ -97,7 +97,7 @@ public class SwipeTest {
                     else {
                         //like click button
                         swipe.likeBtnClick();
-                        swipe.waitForFewSeconds(2000);
+                        swipe.waitForFewSeconds(3000);
                         System.out.println("count is: " + count++);
                     }
                 }while(i == 0);

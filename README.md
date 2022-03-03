@@ -10,7 +10,7 @@
 - I have covered most of the random tinder pop-ups condition to avoid interruption while swiping :P 
 
 
-```In a good case if you keep it running for 24 hours you can swipe 43,200 people and all you have to do reply to people you like ... isn't it fun ? hahahaha```
+```In a good case if you keep it running for 24 hours you can swipe ~28,800 people and all you have to do reply to people you like ... isn't it fun ? hahahaha```
 
 
 ## how to run

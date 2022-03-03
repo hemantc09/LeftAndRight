@@ -175,14 +175,14 @@ public class Swipe {
 
     //method superlike modal button status
     public boolean cancelSuperLikeBtnStatus() {
-        Boolean isPresent = driver.findElements(By.xpath("//*[@id='s-225515700']/div/div/button[2]")).size() > 0;
+        Boolean isPresent = driver.findElements(By.xpath("//button[contains(@data-testid,'SuperlikeUpsellModal')]")).size() > 0;
         return isPresent;
     }
 
 
     //method superlike  click not interested button
     public void cancelSuperLikeBtnClick() {
-        WebElement notIntegersted = driver.findElement(By.xpath("//*[@id='s-225515700']/div/div/button[2]"));
+        WebElement notIntegersted = driver.findElement(By.xpath("//button[contains(@data-testid,'SuperlikeUpsellModal')]"));
         notIntegersted.click();
     }
 
